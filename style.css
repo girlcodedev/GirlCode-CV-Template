@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    text-align-last: center;
+}
+
+#avatar {
+    font-size: 6em;
+    color: #ff4a60;
+}
+
+.main-grid {
+    padding: 90px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    row-gap: 20%;
+    column-gap: 10%;
+}
+
+.inner-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    row-gap: 20%;
+    column-gap: 10%;
+}
+
+.bottom-border {
+    border-bottom: 1px solid gray;
+    width: min-content;
+}
